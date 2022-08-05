@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width, intial scale =1.0">
+    <title>Login/Register</title>
+    <link rel="stylesheet" href="./rgstr.css">
+    </head>
+    <body> 
+        <div id="page" class="site login-show">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="login">
+                        <div class="content-heading">
+                            <div class = "y-style">
+                                <div class = "logo"><img src= "logo.jpeg"></div>
+                                <div class ="welcome">
+                                <h2>Welcome<br>Back!</h2>
+                                <p>Get start to review your world.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-form">
+                            <div class="y-style"> 
+                                <form id = "form" action="" onsubmit = "return validation4();" action ="resgister.html">
+                                    <p>
+                                        <label>Email</label>
+                                        <input type="email" class="Email" id="Email" placeholder="Enter your email">
+                                    </p>
+                                    <div class="row justify-content-center email-error" style ="color:red">
+                                    </div>
+                                    <p>
+                                        <label>Password</label>
+                                        <input type="password" class="pwd" id="pwd" placeholder="Enter Password">
+                                    </p>
+                                    <div class="password-error" style="color:red">
+                                    </div>
+                                    <p class="check">
+                                        <input type="checkbox" id="remember">
+                                        <label for="remember">Remember me</label>
+                                        
+                                    </p>
+                                    <p class="forgot"><a href="#">Forgot password</a></p>
+                                    <p><button type="submit" class="button" id="btn" href="search.html">Login</button></p>
+                                </form>
+                                <div class="afterform">
+                                    <p>Don't have an accout?</p>
+                                    <a href="registration.html" class="t-signup" id="register" >Register</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--login form-->
+                    <!-- <div class="signup">
+                        <div class="content-heading">
+                            <div class = "y-style">
+                                <div class = "logo"><img src= "C:\Users\hi\Downloads\image1.jpg"></div>
+                                <div class ="welcome">
+                                <h2>Sign Up<br>Now</h2>
+                                <p> Sign up to review your world.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content-form">
+                            <div class="y-style">
+                                <form onsubmit= "return validation5()" action="">
+                                    <p>
+                                        <label>Username</label>
+                                        <input type="text" class="Name" id="Name" placeholder="username">
+                                    </p>
+                                    <div class="row justify-content-center Name-error" style ="color:red">
+               
+                                    </div> 
+                                    <p>
+                                        <label>Email</label>
+                                        <input type="email" class="Email" id="Email" placeholder="Enter your email">
+                                    </p>
+                                    <div class="row justify-content-center email-error" style ="color:red">
+               
+                                    </div> 
+                                    <p>
+                                        <label>Password</label>
+                                        <input type="password" class="pwd" id="pwd" placeholder="Enter Password">
+                                    </p>
+                                    <div class="row justify-content-center password-error" style="color:red">
+               
+                                    </div>
+                                    <p>
+                                        <label>Confirm Password</label>
+                                        <input type="password" class="pwd1" id="pwd1" placeholder="Enter Password">
+                                    </p>
+                                    <div class="row justify-content-center repassword-error" style="color:red"> 
+             
+                                    </div>
+                            
+                                    <p><button type="submit" class="button" id="btn1">Sign up</button></p>
+                                </form>
+                                <div class="social">
+                                    <p><span>Or sign up with</span></p>
+                                    <ul>
+                                        <li><a href="#" class="google"><ion-icon name="logo-google"></ion-icon></a></li>
+                                        <li><a href="#" class="facebook"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                                    </ul>
+                                </div>
+                                <div class="afterform">
+                                    <p>Already have an accout?</p>
+                                    <a href="#" class="t-login" id="login">Login here</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>register form -->
+                </div>
+            </div>
+        </div>
+        <script src="login.js"></script>
+        
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    </body>
+</html>
